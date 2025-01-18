@@ -1,0 +1,7 @@
+4.Nxt Watch img url = "https://res.cloudinary.com/dekrcobk2/image/upload/v1737015093/mkegppelxclvqapnjc4a.jpg"
+
+3.jOBBY app = "https://res.cloudinary.com/dekrcobk2/image/upload/v1737014983/rxjqsfiqh6pa0tbpbzjg.jpg"
+
+1.todos app = "https://res.cloudinary.com/dekrcobk2/image/upload/v1737014581/icgojtir5fkjzcclvqf5.jpg"
+
+2.nxtrenz = "https://res.cloudinary.com/dekrcobk2/image/upload/v1737014709/vxnzya5vzc3ztatygkyr.jpg"
