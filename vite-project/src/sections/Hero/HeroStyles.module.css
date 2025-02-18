@@ -21,6 +21,7 @@
   
         img {
           width: 40px;
+         
         }
       }
     }
@@ -57,7 +58,11 @@
   .colorModeContainer {
     position: relative;
   }
-  
+  @media (width < 800px) {
+    .colorModeContainer {
+      margin-top: 40px;
+    }
+  }
   .colorMode {
     position: absolute;
     right: 0;
@@ -90,6 +95,7 @@
       flex-direction: row-reverse;
       align-items: center;
       justify-content: space-evenly;
+      
   
       .hero {
         max-width: 350px;

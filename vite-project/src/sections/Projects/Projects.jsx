@@ -3,40 +3,34 @@ import styles from './ProjectsStyles.module.css';
 
 import nxtwatchyoutube from '../../assets/nxtwatchyoutube.jpg';
 
-import nxttrendz from '../../assets/nxttrendz.png';
 
-import todo from '../../assets/todo.png';
 
-import jobby from '../../assets/jobby.png';
 
 import ProjectCard from '../../common/ProjectCard';
 
 const myProjects = [ 
     {
         title: "NxtWatch",
-        skills: ["React Js", "Javascript", "Rest API", "CSS", "HTML"],
+    
         imageUrl: nxtwatchyoutube,
-        projectUrl: "https://mouli1nxtwatch.ccbp.tech/",
+        projectUrl: " https://moulinxtwatch8.ccbp.tech",
         githubUrl: "https://github.com/harimouli/nxtwatch-reactjs.git"
     },
     {
         title: "NxtTrendz",
-        skills: ["React Js", "Javascript", "", "Rest API", "Bootstrap"],
-        imageUrl: nxttrendz,
-        projectUrl: "https://nxttrendzmouli2.ccbp.tech/",
+        imageUrl: "https://res.cloudinary.com/dekrcobk2/image/upload/v1739857584/nxttrendfinal.png",
+        projectUrl: "https://moulinxttrendz8.ccbp.tech",
         githubUrl: "https://github.com/harimouli/nxttrendz_cart_features.git"
     },
     {
         title: "Todo App",
-        skills: ["Javascript", "LocalStorage", "CSS", "HTML"],
-        imageUrl: todo,
+        imageUrl: "https://res.cloudinary.com/dekrcobk2/image/upload/v1739858092/todo.jpg",
         projectUrl: "https://moulitodosapp1.ccbp.tech/",
         githubUrl: "https://moulitodosapp1.ccbp.tech/"
     },
     {
         title: "Jobby",
-        skills: ["React", "Redux", "Firebase", "GitHub Jobs API"],
-        imageUrl: jobby,
+        imageUrl: "https://res.cloudinary.com/dekrcobk2/image/upload/v1739857941/jobbyfinal.png",
         projectUrl: "https://moulijobbyapp1.ccbp.tech/",
         githubUrl: "https://github.com/harimouli/jobby-app-reactjs.git"
     }
@@ -45,7 +39,7 @@ const myProjects = [
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
-      <h1 className="sectionTitle">Projects</h1>
+      <h1 className="sectionTitle">My Projects</h1>
       <div className={styles.projectsContainer}>
         {myProjects.map((project, index) => (
           <ProjectCard
