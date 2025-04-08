@@ -46,9 +46,9 @@ function Hero() {
                     Muthyala 
                   </h1>
                   
-                  <h2 className= {`${styles.rolename} font-bold` }>
-                    Full Stack&nbsp;
-                    <span className='text-[#1b54bd]  font-black text-3xl'> Developer</span>
+                  <h2 className= {`${styles.rolename} font-bold hover:shadow` }>
+                    Full Stack 
+                     Developer
                   </h2>
          
           <span className='mt-1 mb-2' >
@@ -58,7 +58,7 @@ function Hero() {
           <a href="https://github.com/" target="_blank" className="transition-all duration-200 hover:scale-180">
             <img src={githubIcon} alt="Github icon"  />
           </a>
-          <a href="https://www.linkedin.com/in/muthyalaharimouli/" target="_blank" className="transition-all duration-200 hover:scale-180">
+          <a href="https://www.linkedin.com/in/muthyalaharimouli/" target="_blank" className="transition-all duration-200 hover:scale-180 hover:shadow-amber-100">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
           <a href="https://leetcode.com/u/MuthyalaHariMouli/" target="_blank" className="transition-all duration-200 hover:scale-180 ">

@@ -3,7 +3,6 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 20px;
    text-align: center;
@@ -63,7 +62,7 @@
   }
   @media (width < 800px) {
     .colorModeContainer {
-      margin-top: 40px;
+      margin-top: 10px;
     }
   }
   .colorMode {
@@ -112,6 +111,7 @@
       flex-direction: row-reverse;
       align-items: center;
       justify-content: space-evenly;
+      gap: 10px;
       
   
       .hero {
