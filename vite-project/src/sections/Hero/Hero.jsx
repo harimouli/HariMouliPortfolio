@@ -48,11 +48,11 @@ function Hero() {
                   
                   <h2 className= {`${styles.rolename} font-bold` }>
                     Full Stack&nbsp;
-                    <span className='text-[#1b54bd]  font-black'> Developer</span>
+                    <span className='text-[#1b54bd]  font-black text-3xl'> Developer</span>
                   </h2>
          
           <span className='mt-1 mb-2' >
-          <a  href="https://twitter.com/" target="_blank" className="transition-all duration-200 hover:scale-180">
+          <a  href="https://x.com/MouliTheEagle" target="_blank" className="transition-all duration-200 hover:scale-180">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
           <a href="https://github.com/" target="_blank" className="transition-all duration-200 hover:scale-180">
@@ -68,8 +68,8 @@ function Hero() {
          
         </span>
       
-          <UseTypingHeading text={heroDescription} speed={50}/>
-        <a href = {resume} download={true} className="transition-all duration-100 hover:scale-120"> 
+          <UseTypingHeading text={heroDescription} speed={90}/>
+        <a href = {resume} download={true} className="transition-all duration-100 hover:scale-120  hover:shadow-white"> 
             <button>
                     Resume
             </button>

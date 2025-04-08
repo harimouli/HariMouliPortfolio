@@ -1,21 +1,26 @@
  
  import { useEffect, useState } from 'react';
  import {motion} from "framer-motion"
+ import PropTypes from 'prop-types';
  import styles from "../sections/Hero/HeroStyles.module.css"
  export const UseTypingHeading = ({text, speed}) => {
     const [displayedText, setDisplayedText] = useState("");
     useEffect(()=> {
         let index = 0;
         const interval = setInterval(()=> {
-          if(index < text.length){
-            setDisplayedText(prev => prev + text.charAt(index))
+    
+          if (index < text.length) {
+            setDisplayedText(prev => prev + text.charAt(index));
             index++;
-          }
-          else{
+          } else {
             clearInterval(interval);
           }
-        
         }, speed);
+
+        UseTypingHeading.propTypes = {
+          text: PropTypes.string.isRequired,
+          speed: PropTypes.number.isRequired,
+        };
         return ()=> clearInterval(interval);
     }, [text])
   
