@@ -40,9 +40,7 @@
       transition: transform 200ms ease-in-out;
     }
   
-    a:hover {
-      transform: scale(1.05);
-    }
+    
   }
   
   .projectsContainer {
@@ -59,4 +57,8 @@
       justify-content: space-evenly;
       padding: 0 30px;
     }
+  }
+
+  .sectionTitle {
+    margin-top: 10px;
   }
